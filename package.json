@@ -1,0 +1,25 @@
+{
+  "name": "parcel-project-template",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://d1moh.github.io/",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /D1moH.github.io/"
+  },
+  "keywords": [],
+  "author": "D1moH <21DIMON12@inbox.ru>",
+  "license": "ISC",
+
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "src": "^1.1.2"
+  }
+}
